@@ -5,8 +5,6 @@
 Transform your website analytics with real-time Discord notifications, advanced user tracking, persistent device fingerprinting, A/B testing, funnel analytics, and comprehensive user journey mapping.
 
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![npm version](https://img.shields.io/npm/v/analytik.svg)](https://www.npmjs.com/package/analytik)
-[![Discord](https://img.shields.io/discord/YOUR_DISCORD_ID.svg?label=discord)](https://discord.gg/YOUR_INVITE)
 
 ## ✨ Features
 
@@ -53,7 +51,7 @@ Transform your website analytics with real-time Discord notifications, advanced 
 
 ```html
 <!-- NPM Installation -->
-<script src="https://unpkg.com/analytik@latest/dist/analytik.min.js"></script>
+<script src="https://raw.githubusercontent.com/driyqnn/analytik/refs/heads/main/analytik.js"></script>
 
 <!-- Basic Setup -->
 <script>
@@ -80,7 +78,7 @@ window.AnalyticsConfig = {
 
 ```html
 <!-- NPM Installation -->
-<script src="https://unpkg.com/analytik@latest/dist/analytik.min.js"></script>
+<script src="https://raw.githubusercontent.com/driyqnn/analytik/refs/heads/main/analytik.js"></script>
 
 <!-- Advanced Setup with All Features -->
 <script>
@@ -287,7 +285,7 @@ const analytics = new Analytik({
 
 #### CDN
 ```html
-<script src="https://unpkg.com/analytik@latest/dist/analytik.min.js"></script>
+<script src="https://raw.githubusercontent.com/driyqnn/analytik/refs/heads/main/analytik.js"></script>
 <script>
 const analytics = new Analytik({
   webhook: 'YOUR_WEBHOOK'
@@ -673,7 +671,7 @@ if (user.plan === 'enterprise') {
 
 ### CDN (Recommended)
 ```html
-<script src="https://cdn.jsdelivr.net/npm/discord-analytics@latest/dist/discord-analytics.min.js"></script>
+<script src="[https://cdn.jsdelivr.net/npm/discord-analytics@latest/dist/discord-analytics.min.js](https://raw.githubusercontent.com/driyqnn/analytik/refs/heads/main/analytik.js)"></script>
 ```
 
 ### NPM
@@ -691,9 +689,9 @@ const analytics = new DiscordAnalytics({
 ```
 
 ### Self-Hosted
-Download `discord-analytics.js` and host on your server:
+Download `analytik.js` and host on your server:
 ```html
-<script src="/js/discord-analytics.js"></script>
+<script src="analytik.js"></script>
 ```
 
 ## 🔒 Privacy & Compliance
@@ -927,57 +925,6 @@ discordAnalytics.track('User Action', {
 });
 ```
 
-## 🤝 Contributing
-
-We welcome contributions! Please read our [Contributing Guide](CONTRIBUTING.md) for details.
-
-### Development Setup
-```bash
-git clone https://github.com/yourusername/discord-analytics.git
-cd discord-analytics
-npm install
-npm run dev
-```
-
-### Running Tests
-```bash
-npm test
-npm run test:integration
-npm run test:performance
-```
-
-## 📄 License
-
-MIT License - see [LICENSE](LICENSE) file for details.
-
-## 🆘 Support
-
-- 📖 **Documentation**: [docs.discord-analytics.com](https://docs.discord-analytics.com)
-- 💬 **Discord**: [Join our community](https://discord.gg/discord-analytics)
-- 🐛 **Issues**: [GitHub Issues](https://github.com/yourusername/discord-analytics/issues)
-- 📧 **Email**: support@discord-analytics.com
-
-## 🎯 Roadmap
-
-### Q2 2025
-- [ ] Real-time dashboard
-- [ ] A/B testing framework
-- [ ] Machine learning insights
-- [ ] Mobile SDK
-
-### Q3 2025
-- [ ] Session replay
-- [ ] Funnel analytics
-- [ ] Cohort analysis
-- [ ] API webhooks
-
-### Q4 2025
-- [ ] Slack integration
-- [ ] Teams integration
-- [ ] Advanced segmentation
-- [ ] Custom dashboards
-
----
 
 **Made with ❤️ for the Discord community**
 
